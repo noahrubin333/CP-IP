@@ -319,3 +319,10 @@ Symmetry Breaking: R
 Time (s): 10016
 Nodes Processed: 56528
 ---------------------------------
+n = 10
+Symmetry Breaking: D
+
+Error code = 10005
+Var::get
+Time (s): 60000
+Nodes Processed: 3.3024e+06
