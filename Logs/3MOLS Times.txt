@@ -1,8 +1,8 @@
-n		7		8
+n		7		8		9		10
 
-time		49251s		timeout
+time		49251s		timeout		timeout		timeout
 
-#squares	11785		732
+#squares	11785		732		136		13
 
 solution 7
 
