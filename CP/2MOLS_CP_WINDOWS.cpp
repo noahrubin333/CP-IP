@@ -15,27 +15,27 @@
 
 #pragma once
 
-using namespace std;
-using namespace operations_research;
-using namespace sat;
-
 #include "ortools/sat/cp_model.h"
 #include "ortools/sat/model.h"
 #include "ortools/sat/sat_parameters.pb.h"
 #include <string>
+#include <sstream>
+using namespace std;
+using namespace operations_research;
+using namespace sat;
+
 
 // Here configure macros
 //	Z_VARS_LAST -> apply ordering to 
 #define Z_VARS_LAST 1
+#define INDEX 1
 
-int main(int argc, char* argv[]) {
+int main(int argc, char *argv[]) {
 
 
-	Domain* firstCol_passed = NULL; // Expect possibility of column fixing
 	int passed_list = 0; // Flag set if column fixing is passed at runtime
 
-
-	int n = 0; // Store n
+	vector<Domain> firstCol_passed; // Expect possibility of column fixing
 
 	int i = 0, j = 0, k = 0, l = 0; // General purpose counters
 
@@ -45,23 +45,18 @@ int main(int argc, char* argv[]) {
 		cout << "Enter dimension of squares";
 		exit(0);
 	}
-	if (argc == 2) {
-		n = atoi(argv[1]);
-	}
-
+	int n = stoi(argv[1]);
+	
 	// Allow passing of first column of Y as a list [Y_00, Y_10, ..., Y_(n-1)0]
-	else if (strlen(argv[2]) > 1) {
-		n = atoi(argv[1]); // Grab n
-		firstCol_passed = new Domain[n];
-		passed_list = 1; // Tell program a list was passed
-
-		// Parse list from arguments
+	if (strlen(argv[2]) > 1) {
+		passed_list = 1;
+		string list = string(argv[2]);
+		istringstream argvStream(list.substr(1, list.size() - 2));
+		string token;
 		int count = 0;
-		for (i = 0; i < strlen(argv[2]) - 1; i++) {
-			if (48 <= (int)argv[2][i] && (int)argv[2][i] <= 57) {
-				firstCol_passed[count] = Domain::FromValues({ (int)argv[2][i] - 48 });
-				count++;
-			}
+		while (getline(argvStream, token, ',')) {
+			firstCol_passed.push_back(Domain::FromValues({ stoi(token) }));
+			count++;
 		}
 
 		// Make sure a valid list was passed
@@ -73,7 +68,7 @@ int main(int argc, char* argv[]) {
 
 	// Handle case of symmetry breaking strategy being passed
 	else if (argc == 3) {
-		n = atoi(argv[1]);
+		n = stoi(argv[1]);
 		choice = argv[2][0];
 	}
 
