@@ -4,14 +4,7 @@
 
 	This program implements the pure CP model for solving 2MOLS(n).
 
-	This program allows for the following options:
-
-	i)		n	 					-> run the model in default state, full symm breaking
-	ii)		n	S					-> run the model with specified level of symm breaking
-										-> S = 'N' for none, S = 'R' for first rows Lexocographic, 'D' for dominance detection
-	iii)	n	[l1,l2,...,ln]	-> run the model with full symm breaking and column 1 of Y fixed to [l1, l2, ..., ln]
-										-> pass list without spaces, otherwise compiler sees multiple arguments
-	**/
+**/
 
 #pragma once
 
@@ -20,18 +13,15 @@
 #include "ortools/sat/sat_parameters.pb.h"
 #include <string>
 #include <sstream>
+#include <random>
 using namespace std;
 using namespace operations_research;
 using namespace sat;
 
-
-// Here configure macros
-//	Z_VARS_LAST -> apply ordering to 
 #define Z_VARS_LAST 1
 #define INDEX 1
 
 int main(int argc, char *argv[]) {
-
 
 	int passed_list = 0; // Flag set if column fixing is passed at runtime
 
@@ -337,6 +327,11 @@ int main(int argc, char *argv[]) {
 
 	// Add param to dictate the max time allowed
 	SatParameters param;
+	srand(time(NULL));
+	mt19937_64 seed( chrono::duration_cast<chrono::nanoseconds>(chrono::steady_clock::now().time_since_epoch()).count());
+	auto dist = std::uniform_int_distribution<int>(1, INT_MAX);
+	int s = dist(seed);
+	param.set_random_seed(s);
 	param.set_max_time_in_seconds(60000);
 	// param.set_enumerate_all_solutions(true);
 	model.Add(NewSatParameters(param));;
@@ -344,7 +339,7 @@ int main(int argc, char *argv[]) {
 	int num_solutions = 0; // Can only ever be 1 unless solver is configured to find all 2MOLS(n)
 	model.Add(NewFeasibleSolutionObserver([&](const CpSolverResponse& r) {
 		// This callback function allows the solver to report solutions via stdout
-		cout << "\n";
+		cout << "Seed: " << s << "\n";
 		for (i = 0; i < n; i++) {
 			for (j = 0; j < n; j++) {
 				cout << SolutionIntegerValue(r, x[i * n + j]) << " ";
