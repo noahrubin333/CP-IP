@@ -761,9 +761,207 @@ Number of branches explored: 2235261
 Number of conflicts: 1651565
 ---------------------------------
 n = 9
+Fixing: (0, 6, 1, 7, 8, 2, 5, 4, 3)
+Cycle Type: (1, 4, 4)
+---------------------------------
+n = 9
 Fixing: (0, 3, 5, 4, 8, 7, 2, 6, 1)
 Cycle Type: (1, 4, 4)
 Time elapsed: 60000000
 Number of branches explored: 581891203
 Number of conflicts: 428398758
+---------------------------------
+n = 9
+Fixing: (0, 4, 1, 7, 5, 2, 3, 8, 6)
+Cycle Type: (1, 4, 4)
+Time elapsed: 60000000
+Number of branches explored: 580967529
+Number of conflicts: 427280736
+---------------------------------
+n = 9
+Fixing: (0, 5, 8, 7, 6, 1, 3, 4, 2)
+Cycle Type: (1, 2, 2, 4)
+Time elapsed: 60000000
+Number of branches explored: 572701851
+Number of conflicts: 421388669
+---------------------------------
+n = 9
+Fixing: (0, 2, 8, 6, 7, 1, 3, 4, 5)
+Cycle Type: (1, 2, 2, 4)
+Time elapsed: 60000000
+Number of branches explored: 581360753
+Number of conflicts: 426431650
+---------------------------------
+n = 9
+Fixing: (0, 6, 5, 4, 3, 7, 1, 8, 2)
+Cycle Type: (1, 2, 2, 4)
+Seed: 538551688
+0 1 2 3 4 5 6 7 8 
+1 8 5 0 6 7 4 2 3 
+2 0 4 1 3 8 7 6 5 
+3 4 0 2 1 6 5 8 7 
+4 2 6 7 0 3 8 5 1 
+5 6 7 4 8 1 3 0 2 
+6 7 8 5 2 4 1 3 0 
+7 3 1 8 5 0 2 4 6 
+8 5 3 6 7 2 0 1 4 
+
+
+0 1 2 3 4 5 6 7 8 
+6 7 4 8 5 0 2 3 1 
+5 6 8 4 7 1 3 2 0 
+4 5 1 7 0 3 8 6 2 
+3 0 7 6 2 8 4 1 5 
+7 8 5 1 3 2 0 4 6 
+1 4 0 2 8 6 7 5 3 
+8 2 3 5 6 7 1 0 4 
+2 3 6 0 1 4 5 8 7 
+
+Solution found
+Time elapsed: 19482815
+Number of branches explored: 203553785
+Number of conflicts: 148293094
+---------------------------------
+n = 9
+Fixing: (0, 5, 1, 8, 6, 3, 2, 4, 7)
+Cycle Type: (1, 8)
+Time elapsed: 60000000
+Number of branches explored: 584740847
+Number of conflicts: 428340811
+---------------------------------
+n = 9
+Fixing: (0, 2, 4, 8, 6, 1, 3, 5, 7)
+Cycle Type: (1, 8)
+Seed: 660299449
+0 1 2 3 4 5 6 7 8 
+1 0 5 2 3 6 8 4 7 
+2 5 7 4 0 8 1 3 6 
+3 2 1 5 8 7 0 6 4 
+4 3 6 8 5 2 7 0 1 
+5 4 3 6 7 1 2 8 0 
+6 8 4 7 1 0 3 2 5 
+7 6 8 0 2 4 5 1 3 
+8 7 0 1 6 3 4 5 2 
+
+
+0 1 2 3 4 5 6 7 8 
+2 3 7 0 1 4 5 8 6 
+4 0 8 5 7 1 3 6 2 
+8 7 5 6 2 0 4 1 3 
+6 5 0 4 8 3 1 2 7 
+1 2 4 7 3 6 8 0 5 
+3 6 1 2 0 8 7 5 4 
+5 8 3 1 6 7 2 4 0 
+7 4 6 8 5 2 0 3 1 
+
+Solution found
+Time elapsed: 1997682
+Number of branches explored: 21382273
+Number of conflicts: 15215195
+---------------------------------
+n = 9
+Fixing: (0, 6, 8, 7, 3, 4, 2, 1, 5)
+Cycle Type: (1, 8)
+Time elapsed: 60000000
+Number of branches explored: 568057985
+Number of conflicts: 416189039
+---------------------------------
+n = 9
+Fixing: (0, 3, 4, 7, 6, 8, 1, 2, 5)
+Cycle Type: (1, 2, 6)
+Time elapsed: 59997266
+Number of branches explored: 568764626
+Number of conflicts: 417964232
+---------------------------------
+n = 9
+Fixing: (0, 6, 4, 5, 2, 8, 7, 1, 3)
+Cycle Type: (1, 2, 3, 3)
+Time elapsed: 59999999
+Number of branches explored: 548615433
+Number of conflicts: 404267748
+---------------------------------
+n = 9
+Fixing: (0, 2, 1, 4, 7, 8, 5, 3, 6)
+Cycle Type: (1, 2, 3, 3)
+Time elapsed: 60000000
+Number of branches explored: 553166937
+Number of conflicts: 404644862
+---------------------------------
+n = 9
+Fixing: (0, 2, 4, 7, 1, 3, 8, 5, 6)
+Cycle Type: (1, 2, 3, 3)
+Time elapsed: 59999999
+Number of branches explored: 558460417
+Number of conflicts: 409898441
+---------------------------------
+n = 9
+Fixing: (0, 3, 5, 1, 6, 2, 4, 8, 7)
+Cycle Type: (1, 2, 2, 2, 2)
+Time elapsed: 60000000
+Number of branches explored: 556171194
+Number of conflicts: 409984861
+---------------------------------
+n = 9
+Fixing: (0, 8, 7, 6, 5, 4, 3, 2, 1)
+Cycle Type: (1, 2, 2, 2, 2)
+Seed: 816770897
+0 1 2 3 4 5 6 7 8 
+1 0 3 6 2 8 4 5 7 
+2 4 7 1 8 6 5 3 0 
+3 8 6 5 7 2 0 4 1 
+4 5 0 8 1 7 3 6 2 
+5 6 1 2 0 3 7 8 4 
+6 2 4 7 3 1 8 0 5 
+7 3 8 0 5 4 2 1 6 
+8 7 5 4 6 0 1 2 3 
+
+
+0 1 2 3 4 5 6 7 8 
+8 7 4 5 1 2 0 3 6 
+7 8 3 0 6 4 1 2 5 
+6 3 0 7 5 8 2 1 4 
+5 6 1 4 2 0 7 8 3 
+4 2 5 6 3 1 8 0 7 
+3 0 6 1 8 7 5 4 2 
+2 5 7 8 0 3 4 6 1 
+1 4 8 2 7 6 3 5 0 
+
+Solution found
+Time elapsed: 22766604
+Number of branches explored: 225437508
+Number of conflicts: 163084874
+---------------------------------
+n = 9
+Fixing: (0, 6, 3, 2, 5, 4, 1, 8, 7)
+Cycle Type: (1, 2, 2, 2, 2)
+Time elapsed: 60000000
+Number of branches explored: 551295278
+Number of conflicts: 408471309
+---------------------------------n = 9
+Fixing: (0, 5, 4, 7, 1, 8, 2, 3, 6)
+Cycle Type: (1, 2, 6)
+Time elapsed: 59999999
+Number of branches explored: 575354855
+Number of conflicts: 424163356
+---------------------------------
+n = 9
+Fixing: (0, 2, 3, 6, 5, 8, 7, 1, 4)
+Cycle Type: (1, 3, 5)
+Time elapsed: 59999999
+Number of branches explored: 568871053
+Number of conflicts: 416980660
+---------------------------------
+n = 9
+Fixing: (0, 4, 3, 6, 5, 7, 2, 8, 1)
+Cycle Type: (1, 3, 5)
+Time elapsed: 60000000
+Number of branches explored: 582361166
+Number of conflicts: 428379406
+---------------------------------
+n = 9
+Fixing: (0, 4, 7, 1, 3, 6, 8, 5, 2)
+Cycle Type: (1, 3, 5)
+Time elapsed: 60000000
+Number of branches explored: 566340721
+Number of conflicts: 415696595
 ---------------------------------
