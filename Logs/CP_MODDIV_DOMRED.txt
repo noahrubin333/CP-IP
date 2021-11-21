@@ -1,0 +1,196 @@
+n = 5
+
+0 1 2 3 4 
+1 4 0 2 3 
+2 0 3 4 1 
+3 2 4 1 0 
+4 3 1 0 2 
+
+
+0 1 2 3 4 
+2 0 3 4 1 
+1 4 0 2 3 
+4 3 1 0 2 
+3 2 4 1 0 
+
+Time elapsed: 50 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 23
+conflicts: 0
+branches: 48
+propagations: 485
+integer_propagations: 2594
+walltime: 0.0499982
+usertime: 0.0499981
+deterministic_time: 0.0133138
+primal_integral: 0
+---------------------------------
+n = 6
+Time elapsed: 3498 ms
+CpSolverResponse:
+status: INFEASIBLE
+objective: NA
+best_bound: NA
+booleans: 964
+conflicts: 11060
+branches: 17148
+propagations: 3562909
+integer_propagations: 537244
+walltime: 3.49757
+usertime: 3.49757
+deterministic_time: 1.69999
+primal_integral: 0
+---------------------------------
+n = 7
+
+0 1 2 3 4 5 6 
+1 4 3 0 5 6 2 
+2 3 5 6 0 1 4 
+3 0 6 2 1 4 5 
+4 5 0 1 6 2 3 
+5 6 1 4 2 3 0 
+6 2 4 5 3 0 1 
+
+
+0 1 2 3 4 5 6 
+2 6 5 4 1 3 0 
+1 2 4 0 3 6 5 
+4 5 1 6 0 2 3 
+3 0 6 5 2 4 1 
+6 4 3 1 5 0 2 
+5 3 0 2 6 1 4 
+
+Time elapsed: 5233 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 2166
+conflicts: 10579
+branches: 24576
+propagations: 5015494
+integer_propagations: 912991
+walltime: 5.23233
+usertime: 5.23233
+deterministic_time: 1.57478
+primal_integral: 0
+---------------------------------
+n = 8
+
+0 1 2 3 4 5 6 7 
+1 4 7 5 3 0 2 6 
+2 3 0 1 5 6 7 4 
+3 5 6 4 7 2 1 0 
+4 0 1 2 6 7 5 3 
+5 6 3 7 1 4 0 2 
+6 7 5 0 2 3 4 1 
+7 2 4 6 0 1 3 5 
+
+
+0 1 2 3 4 5 6 7 
+2 0 1 6 5 3 7 4 
+3 6 5 4 7 2 0 1 
+4 2 0 7 3 1 5 6 
+5 7 6 0 1 4 3 2 
+1 3 7 2 0 6 4 5 
+7 5 4 1 6 0 2 3 
+6 4 3 5 2 7 1 0 
+
+Time elapsed: 818452 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 4209
+conflicts: 1252358
+branches: 2068212
+propagations: 831436038
+integer_propagations: 109900213
+walltime: 818.449
+usertime: 818.449
+deterministic_time: 347.476
+primal_integral: 0
+---------------------------------
+n = 9
+Time elapsed: 60000004 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 7406
+conflicts: 82461191
+branches: 130679156
+propagations: 71176500427
+integer_propagations: 9063486220
+walltime: 60000
+usertime: 60000
+deterministic_time: 37942.4
+primal_integral: 0
+---------------------------------
+n = 10
+Time elapsed: 60000005 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 12116
+conflicts: 73363499
+branches: 123646771
+propagations: 76501314643
+integer_propagations: 9650224165
+walltime: 60000
+usertime: 60000
+deterministic_time: 34242.1
+primal_integral: 0
+---------------------------------
+n = 11
+Time elapsed: 60000010 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 18747
+conflicts: 62468183
+branches: 107450360
+propagations: 66262135832
+integer_propagations: 7614941816
+walltime: 60000
+usertime: 60000
+deterministic_time: 44838.3
+primal_integral: 0
+---------------------------------
+n = 12
+Time elapsed: 60000011 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 27757
+conflicts: 45971000
+branches: 76890392
+propagations: 36417793292
+integer_propagations: 5801845523
+walltime: 60000
+usertime: 60000
+deterministic_time: 59004
+primal_integral: 0
+---------------------------------
+n = 13
+Time elapsed: 60000016 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 39646
+conflicts: 36263986
+branches: 55433066
+propagations: 27533850964
+integer_propagations: 8326179448
+walltime: 60000
+usertime: 60000
+deterministic_time: 65201.4
+primal_integral: 0
+---------------------------------

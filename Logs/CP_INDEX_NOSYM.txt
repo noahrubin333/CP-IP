@@ -1,0 +1,241 @@
+Using random seed 5
+
+1 2 3 4 0 
+2 3 4 0 1 
+3 4 0 1 2 
+4 0 1 2 3 
+0 1 2 3 4 
+
+
+1 0 4 3 2 
+4 3 2 1 0 
+2 1 0 4 3 
+0 4 3 2 1 
+3 2 1 0 4 
+
+Solution found
+Time elapsed: 42 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 525
+conflicts: 0
+branches: 1080
+propagations: 6645
+integer_propagations: 2502
+walltime: 0.041746
+usertime: 0.0417464
+deterministic_time: 0.00316372
+primal_integral: 0
+---------------------------------
+n = 6
+Time elapsed: 59999998 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 972
+conflicts: 67708836
+branches: 75254450
+propagations: 12895125427
+integer_propagations: 1207095222
+walltime: 60000
+usertime: 60000
+deterministic_time: 65349.9
+primal_integral: 0
+---------------------------------
+n = 7
+
+5 4 2 0 1 6 3 
+3 0 6 5 2 4 1 
+6 1 3 4 5 2 0 
+4 2 1 3 0 5 6 
+0 6 5 1 4 3 2 
+2 5 0 6 3 1 4 
+1 3 4 2 6 0 5 
+
+
+3 2 6 4 5 1 0 
+1 3 4 2 0 5 6 
+6 1 5 0 4 3 2 
+4 5 2 6 1 0 3 
+5 0 1 3 6 2 4 
+2 6 0 5 3 4 1 
+0 4 3 1 2 6 5 
+
+Solution found
+Time elapsed: 7830 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 1617
+conflicts: 66340
+branches: 121155
+propagations: 8101972
+integer_propagations: 874669
+walltime: 7.82998
+usertime: 7.82998
+deterministic_time: 2.783
+primal_integral: 0
+---------------------------------
+n =  8
+
+5 6 7 4 1 3 0 2 
+6 3 4 2 5 1 7 0 
+0 5 2 1 6 4 3 7 
+4 2 1 5 0 7 6 3 
+2 7 5 3 4 0 1 6 
+7 4 0 6 3 5 2 1 
+1 0 3 7 2 6 4 5 
+3 1 6 0 7 2 5 4 
+
+
+7 3 2 5 6 4 0 1 
+2 0 7 6 5 1 3 4 
+5 4 3 2 0 6 1 7 
+0 7 4 1 3 5 6 2 
+4 6 0 3 1 2 7 5 
+1 2 6 4 7 3 5 0 
+3 1 5 0 2 7 4 6 
+6 5 1 7 4 0 2 3 
+
+Solution found
+Time elapsed: 36248 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 2496
+conflicts: 408098
+branches: 813007
+propagations: 59237541
+integer_propagations: 6251969
+walltime: 36.2478
+usertime: 36.2478
+deterministic_time: 22.4146
+primal_integral: 0
+---------------------------------
+n = 9
+
+7 4 0 3 5 1 6 8 2 
+2 8 3 1 7 4 5 6 0 
+3 1 2 7 0 6 8 4 5 
+8 6 1 5 3 0 4 2 7 
+0 7 4 6 2 3 1 5 8 
+4 5 6 8 1 7 2 0 3 
+1 2 8 0 6 5 7 3 4 
+6 3 5 4 8 2 0 7 1 
+5 0 7 2 4 8 3 1 6 
+
+
+2 3 8 6 5 4 0 7 1 
+3 4 2 1 0 7 8 5 6 
+7 0 5 4 2 1 6 8 3 
+0 2 6 7 8 3 1 4 5 
+1 8 4 3 7 0 5 6 2 
+5 1 7 8 3 6 2 0 4 
+8 6 3 5 4 2 7 1 0 
+6 5 0 2 1 8 4 3 7 
+4 7 1 0 6 5 3 2 8 
+
+Solution found
+Time elapsed: 378705 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 3645
+conflicts: 3154903
+branches: 7144316
+propagations: 536379306
+integer_propagations: 58523763
+walltime: 378.705
+usertime: 378.705
+deterministic_time: 300.452
+primal_integral: 0
+---------------------------------
+n = 10
+
+7 2 0 6 5 3 4 9 8 1 
+6 1 8 0 2 7 3 4 5 9 
+1 9 4 2 3 6 8 7 0 5 
+4 0 7 3 8 1 9 5 2 6 
+8 4 5 9 7 2 6 0 1 3 
+0 5 3 4 9 8 1 2 6 7 
+3 6 2 7 1 9 5 8 4 0 
+2 7 1 5 6 4 0 3 9 8 
+9 3 6 8 0 5 2 1 7 4 
+5 8 9 1 4 0 7 6 3 2 
+
+
+9 5 6 2 7 3 1 0 8 4 
+5 8 4 3 0 6 9 7 1 2 
+3 1 0 8 2 9 5 4 7 6 
+6 4 5 7 9 1 3 8 2 0 
+7 2 3 6 1 4 8 9 0 5 
+2 9 1 4 5 0 7 3 6 8 
+8 3 9 0 6 7 4 2 5 1 
+1 7 2 5 4 8 0 6 9 3 
+4 0 7 1 8 2 6 5 3 9 
+0 6 8 9 3 5 2 1 4 7 
+
+Solution found
+Time elapsed: 214766 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 5100
+conflicts: 1785934
+branches: 3980173
+propagations: 347868693
+integer_propagations: 33485660
+walltime: 214.765
+usertime: 214.765
+deterministic_time: 155.466
+primal_integral: 0
+---------------------------------
+n = 11
+
+2 10 5 9 7 0 1 6 3 8 4 
+5 8 2 1 0 7 6 3 9 4 10 
+7 2 0 3 1 5 8 10 4 9 6 
+0 5 9 7 4 1 10 2 6 3 8 
+4 9 6 2 8 3 5 0 1 10 7 
+6 0 3 5 10 8 4 9 7 2 1 
+3 1 8 4 6 10 0 7 2 5 9 
+10 3 4 6 9 2 7 8 5 1 0 
+9 4 10 0 5 6 2 1 8 7 3 
+8 7 1 10 3 4 9 5 0 6 2 
+1 6 7 8 2 9 3 4 10 0 5 
+
+
+10 3 1 2 7 0 9 5 6 8 4 
+5 6 9 4 2 1 3 10 8 7 0 
+3 8 5 9 1 6 7 4 2 0 10 
+4 9 7 6 8 5 10 2 0 3 1 
+0 4 6 7 10 2 8 1 3 5 9 
+7 10 8 0 6 3 5 9 4 1 2 
+1 0 4 10 9 7 6 8 5 2 3 
+9 7 3 1 5 4 2 0 10 6 8 
+6 1 2 3 4 8 0 7 9 10 5 
+2 5 10 8 0 9 1 3 7 4 6 
+8 2 0 5 3 10 4 6 1 9 7 
+
+Time elapsed: 8341698 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 6897
+conflicts: 31337788
+branches: 41553600
+propagations: 8511193790
+integer_propagations: 755708300
+walltime: 8341.7
+usertime: 8341.7
+deterministic_time: 6336.54
+primal_integral: 0
+---------------------------------

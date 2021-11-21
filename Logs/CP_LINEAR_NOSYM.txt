@@ -1,0 +1,223 @@
+n = 5
+
+0 1 2 3 4 
+1 3 0 4 2 
+2 0 4 1 3 
+3 4 1 2 0 
+4 2 3 0 1 
+
+
+0 1 2 3 4 
+3 4 1 2 0 
+4 2 3 0 1 
+2 0 4 1 3 
+1 3 0 4 2 
+
+Solution found
+Time elapsed: 6 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 25
+conflicts: 70
+branches: 110
+propagations: 193
+integer_propagations: 3869
+walltime: 0.0060978
+usertime: 0.0060978
+deterministic_time: 5.709e-05
+primal_integral: 0
+
+-----------------------------------
+n = 6
+Time elapsed: 59999999 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 1175
+conflicts: 188978460
+branches: 208262478
+propagations: 29280169250
+integer_propagations: 18345962153
+walltime: 60000
+usertime: 60000
+deterministic_time: 119712
+primal_integral: 0
+-----------------------------------
+n = 7
+
+4 5 6 0 2 1 3 
+6 0 1 2 4 3 5 
+3 4 5 6 1 0 2 
+2 3 4 5 0 6 1 
+5 6 0 1 3 2 4 
+0 1 2 3 5 4 6 
+1 2 3 4 6 5 0 
+
+
+6 0 3 5 4 1 2 
+4 6 2 1 0 5 3 
+0 4 1 2 6 3 5 
+3 1 5 6 2 0 4 
+2 5 4 0 3 6 1 
+1 3 0 4 5 2 6 
+5 2 6 3 1 4 0 
+
+Solution found
+Time elapsed: 8036 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 192
+conflicts: 83922
+branches: 125898
+propagations: 783369
+integer_propagations: 6166221
+walltime: 8.03642
+usertime: 8.03642
+deterministic_time: 1.10722
+primal_integral: 0
+-----------------------------------
+n = 8
+
+3 2 5 1 4 6 7 0 
+5 6 4 0 7 1 3 2 
+2 7 0 3 6 5 1 4 
+1 3 2 4 0 7 5 6 
+6 5 3 7 2 0 4 1 
+0 4 7 5 1 2 6 3 
+7 0 1 6 3 4 2 5 
+4 1 6 2 5 3 0 7 
+
+
+1 6 3 7 4 2 0 5 
+6 5 0 2 3 1 7 4 
+3 2 1 0 7 5 4 6 
+5 4 7 3 0 6 2 1 
+0 7 6 1 2 4 5 3 
+7 1 5 4 6 0 3 2 
+4 3 2 6 5 7 1 0 
+2 0 4 5 1 3 6 7 
+
+Solution found
+Time elapsed: 1967078 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 388
+conflicts: 16905781
+branches: 24950533
+propagations: 332363795
+integer_propagations: 1156003485
+walltime: 1967.08
+usertime: 1967.08
+deterministic_time: 359.357
+primal_integral: 0
+-----------------------------------
+n = 9
+
+4 0 2 5 3 7 1 6 8 
+8 6 7 0 4 1 3 5 2 
+1 7 6 3 2 8 4 0 5 
+7 3 8 6 1 5 0 2 4 
+6 1 5 7 8 0 2 4 3 
+3 5 0 2 6 4 8 1 7 
+5 2 1 4 0 3 7 8 6 
+0 4 3 8 5 2 6 7 1 
+2 8 4 1 7 6 5 3 0 
+
+
+8 2 1 4 7 0 3 5 6 
+5 3 4 6 0 7 1 2 8 
+4 7 0 2 5 8 6 3 1 
+1 0 7 8 6 3 5 4 2 
+2 8 6 5 3 1 0 7 4 
+6 5 8 7 1 4 2 0 3 
+0 6 2 3 4 5 8 1 7 
+7 1 3 0 8 2 4 6 5 
+3 4 5 1 2 6 7 8 0 
+
+Solution found
+Time elapsed: 58637766 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 568
+conflicts: 408345095
+branches: 607634533
+propagations: 9124501333
+integer_propagations: 27884387203
+walltime: 58637.8
+usertime: 58637.8
+deterministic_time: 11322.4
+primal_integral: 0
+-----------------------------------
+n = 10
+Time elapsed: 60000000 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 738
+conflicts: 295803596
+branches: 467286338
+propagations: 6750200575
+integer_propagations: 22521268495
+walltime: 60000
+usertime: 60000
+deterministic_time: 7128.18
+primal_integral: 0
+-----------------------------------
+n = 11
+Time elapsed: 60000000 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 14140
+conflicts: 216452075
+branches: 260362956
+propagations: 97700534041
+integer_propagations: 36640664238
+walltime: 60000
+usertime: 60000
+deterministic_time: 32622.7
+primal_integral: 0
+-----------------------------------
+n = 12
+Time elapsed: 59999999 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 20005
+conflicts: 163657561
+branches: 199656215
+propagations: 92325617710
+integer_propagations: 32795600405
+walltime: 60000
+usertime: 60000
+deterministic_time: 26463.7
+primal_integral: 0
+-----------------------------------
+n = 13
+Time elapsed: 59999999 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 27322
+conflicts: 190330132
+branches: 224995718
+propagations: 98556613491
+integer_propagations: 28747557177
+walltime: 60000
+usertime: 60000
+deterministic_time: 22787.2
+primal_integral: 0
+-----------------------------------
