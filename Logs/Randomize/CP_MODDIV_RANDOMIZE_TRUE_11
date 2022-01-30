@@ -1,0 +1,53 @@
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>OR_TOOLS_TEST_1.exe 11  
+Using random seed 1161729829
+Time elapsed: 59998950 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 33517
+conflicts: 94838056
+branches: 218157067
+propagations: 58560967865
+integer_propagations: 32675223719
+walltime: 60000
+usertime: 60000
+deterministic_time: 49824.2
+primal_integral: 0
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>OR_TOOLS_TEST_1.exe 11  
+Using random seed 1476465873
+Time elapsed: 59998469 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 33517
+conflicts: 97073173
+branches: 217006031
+propagations: 62249492750
+integer_propagations: 33296185107
+walltime: 60000
+usertime: 60000
+deterministic_time: 52777.6
+primal_integral: 0
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>OR_TOOLS_TEST_1.exe 11  
+Using random seed 1565564792
+Time elapsed: 59998477 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 33517
+conflicts: 103877068
+branches: 240934570
+propagations: 63676741160
+integer_propagations: 35473923586
+walltime: 60000
+usertime: 60000
+deterministic_time: 55371.9
+primal_integral: 0
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>

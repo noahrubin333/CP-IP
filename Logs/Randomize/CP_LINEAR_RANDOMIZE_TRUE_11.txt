@@ -1,0 +1,60 @@
+Using random seed 1858177881
+Time elapsed: 59999999 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 14500
+conflicts: 198912247
+branches: 233278973
+propagations: 101190063468
+integer_propagations: 40682760084
+walltime: 60000
+usertime: 60000
+deterministic_time: 38060.9
+primal_integral: 0
+Using random seed 1418751890
+Time elapsed: 59998675 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 13950
+conflicts: 221812124
+branches: 265634697
+propagations: 95276012013
+integer_propagations: 37081678968
+walltime: 60000
+usertime: 60000
+deterministic_time: 30734.6
+primal_integral: 0
+Using random seed 1289979248
+Time elapsed: 86637388 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 13837
+conflicts: 102041285
+branches: 122935765
+propagations: 45621253049
+integer_propagations: 18595879545
+walltime: 86637.2
+usertime: 86637.2
+deterministic_time: 13549.4
+primal_integral: 0
+Using random seed 1177036180
+Time elapsed: 60001090 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 14245
+conflicts: 171397277
+branches: 197271897
+propagations: 93269402149
+integer_propagations: 34841347107
+walltime: 60000
+usertime: 60000
+deterministic_time: 34259.6
+primal_integral: 0

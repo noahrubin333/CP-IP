@@ -1,0 +1,110 @@
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>OR_TOOLS_TEST_1.exe 7  
+Using random seed 21076890
+
+2 6 3 5 1 4 0 
+0 2 1 3 4 6 5 
+1 4 5 6 0 2 3 
+4 3 0 1 6 5 2 
+3 1 4 2 5 0 6 
+5 0 6 4 2 3 1 
+6 5 2 0 3 1 4 
+
+
+6 1 0 3 5 4 2 
+4 5 2 6 1 3 0 
+3 0 5 4 6 2 1 
+5 4 1 0 2 6 3 
+2 6 3 1 4 0 5 
+1 3 6 2 0 5 4 
+0 2 4 5 3 1 6 
+
+Solution found
+Time elapsed: 3973 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 5733
+conflicts: 2852
+branches: 17285
+propagations: 2731234
+integer_propagations: 1326643
+walltime: 3.9696
+usertime: 3.9696
+deterministic_time: 0.949533
+primal_integral: 0
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>OR_TOOLS_TEST_1.exe 7  
+Using random seed 1724097614
+
+6 4 5 2 1 0 3 
+3 0 2 1 5 6 4 
+0 5 6 3 2 4 1 
+1 3 4 6 0 2 5 
+4 1 0 5 6 3 2 
+2 6 1 4 3 5 0 
+5 2 3 0 4 1 6 
+
+
+3 4 0 6 1 2 5 
+6 0 5 2 3 4 1 
+5 6 2 1 0 3 4 
+0 3 6 5 4 1 2 
+2 5 1 4 6 0 3 
+4 1 3 0 2 5 6 
+1 2 4 3 5 6 0 
+
+Solution found
+Time elapsed: 8900 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 5733
+conflicts: 18008
+branches: 40222
+propagations: 9764413
+integer_propagations: 2389538
+walltime: 8.89797
+usertime: 8.89797
+deterministic_time: 4.03543
+primal_integral: 0
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>OR_TOOLS_TEST_1.exe 7  
+Using random seed 724279566
+
+4 6 1 0 5 3 2 
+2 5 0 3 4 6 1 
+5 0 2 1 3 4 6 
+3 2 4 6 1 0 5 
+6 1 3 2 0 5 4 
+1 3 5 4 6 2 0 
+0 4 6 5 2 1 3 
+
+
+2 3 6 5 1 0 4 
+6 5 4 1 0 2 3 
+3 0 5 2 6 4 1 
+5 2 1 6 4 3 0 
+4 1 3 0 2 6 5 
+0 4 2 3 5 1 6 
+1 6 0 4 3 5 2 
+
+Solution found
+Time elapsed: 4624 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 5733
+conflicts: 4608
+branches: 20515
+propagations: 3612288
+integer_propagations: 1464462
+walltime: 4.62107
+usertime: 4.62107
+deterministic_time: 1.1798
+primal_integral: 0
+
+C:\Users\Noah\source\repos\OR_TOOLS_TEST_1\x64\Release>

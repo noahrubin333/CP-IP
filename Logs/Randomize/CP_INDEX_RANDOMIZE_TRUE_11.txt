@@ -1,0 +1,102 @@
+Using random seed 2140797297
+Time elapsed: 60000001 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 6897
+conflicts: 227627828
+branches: 276219212
+propagations: 93076941923
+integer_propagations: 6391126763
+walltime: 60000
+usertime: 60000
+deterministic_time: 93172.5
+primal_integral: 0
+Using random seed 82809199
+
+8 0 4 7 9 2 5 6 10 1 3 
+9 5 2 1 8 10 7 4 0 3 6 
+4 1 8 10 2 6 3 0 5 9 7 
+1 7 3 9 4 5 6 8 2 10 0 
+0 2 5 8 6 3 9 7 1 4 10 
+2 8 9 3 7 0 10 5 4 6 1 
+6 10 0 4 3 7 1 9 8 2 5 
+3 9 10 0 5 4 2 1 6 7 8 
+7 3 6 5 0 1 4 10 9 8 2 
+5 6 1 2 10 9 8 3 7 0 4 
+10 4 7 6 1 8 0 2 3 5 9 
+
+
+10 6 5 1 8 7 0 2 4 3 9 
+6 2 4 9 0 10 5 1 7 8 3 
+7 1 9 6 10 8 3 0 5 2 4 
+0 10 6 4 2 9 7 3 1 5 8 
+1 9 3 5 6 2 10 7 8 4 0 
+3 8 0 7 9 5 1 4 6 10 2 
+5 7 10 8 1 3 4 9 2 0 6 
+4 5 2 3 7 0 8 10 9 6 1 
+2 0 1 10 4 6 9 8 3 7 5 
+8 4 7 2 3 1 6 5 0 9 10 
+9 3 8 0 5 4 2 6 10 1 7 
+
+Solution found
+Time elapsed: 5019389 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 6897
+conflicts: 28935108
+branches: 37216635
+propagations: 7596674098
+integer_propagations: 643839495
+walltime: 5019.39
+usertime: 5019.39
+deterministic_time: 5775.06
+primal_integral: 0
+Using random seed 314146095
+Time elapsed: 59998429 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 6897
+conflicts: 264863460
+branches: 330419998
+propagations: 87464969638
+integer_propagations: 6779736913
+walltime: 60000
+usertime: 60000
+deterministic_time: 81721.6
+primal_integral: 0
+Using random seed 1982635736
+Time elapsed: 59998406 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 6897
+conflicts: 276214077
+branches: 346532064
+propagations: 87794987019
+integer_propagations: 6592538433
+walltime: 60000
+usertime: 60000
+deterministic_time: 81888.9
+primal_integral: 0
+Using random seed 1691721364
+Time elapsed: 60000001 ms
+CpSolverResponse:
+status: UNKNOWN
+objective: 0
+best_bound: 0
+booleans: 6897
+conflicts: 214245370
+branches: 255779579
+propagations: 84578495560
+integer_propagations: 5739017519
+walltime: 60000
+usertime: 60000
+deterministic_time: 88995.4
+primal_integral: 0

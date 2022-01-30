@@ -1,0 +1,190 @@
+Using random seed 1153088172
+
+3 5 4 8 6 7 1 0 2 
+4 3 5 6 7 8 2 1 0 
+2 4 7 3 5 6 0 8 1 
+6 8 2 7 0 1 4 3 5 
+7 6 8 0 1 2 5 4 3 
+5 7 6 1 8 0 3 2 4 
+1 2 0 5 3 4 8 6 7 
+8 0 1 4 2 3 7 5 6 
+0 1 3 2 4 5 6 7 8 
+
+
+0 1 2 8 6 7 5 3 4 
+1 2 0 7 8 6 3 4 5 
+2 0 6 1 7 8 4 5 3 
+3 4 1 5 0 2 7 6 8 
+4 5 3 2 1 0 6 8 7 
+5 3 4 0 2 1 8 7 6 
+6 8 7 4 3 5 1 0 2 
+7 6 8 3 5 4 0 2 1 
+8 7 5 6 4 3 2 1 0 
+
+Solution found
+Time elapsed: 17089884 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 3645
+conflicts: 78233322
+branches: 94702187
+propagations: 25051633610
+integer_propagations: 1841870109
+walltime: 17089.9
+usertime: 17089.9
+deterministic_time: 24546.6
+primal_integral: 0
+Using random seed 1729068137
+
+6 7 0 3 1 5 8 4 2 
+3 8 5 4 7 0 6 2 1 
+1 5 7 8 6 3 2 0 4 
+4 6 2 5 0 8 1 7 3 
+7 2 4 6 8 1 5 3 0 
+2 3 8 1 4 6 0 5 7 
+5 1 3 0 2 7 4 8 6 
+8 0 1 2 3 4 7 6 5 
+0 4 6 7 5 2 3 1 8 
+
+
+6 8 2 4 7 3 5 0 1 
+0 1 5 2 6 8 7 3 4 
+8 4 7 6 0 5 2 1 3 
+5 3 6 0 4 7 1 2 8 
+4 0 1 5 3 2 8 7 6 
+7 2 4 3 8 1 0 6 5 
+1 6 3 7 5 0 4 8 2 
+2 5 0 8 1 6 3 4 7 
+3 7 8 1 2 4 6 5 0 
+
+Solution found
+Time elapsed: 1400276 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 3645
+conflicts: 10021993
+branches: 12782783
+propagations: 2293230161
+integer_propagations: 208148544
+walltime: 1400.28
+usertime: 1400.28
+deterministic_time: 1493.8
+primal_integral: 0
+Using random seed 1942121146
+
+8 7 6 5 4 3 2 1 0 
+0 8 7 6 5 4 3 2 1 
+7 6 8 4 3 5 1 0 2 
+6 5 4 3 2 1 0 8 7 
+5 4 3 2 1 0 8 7 6 
+4 3 5 1 0 2 7 6 8 
+3 2 1 0 8 7 6 5 4 
+2 1 0 8 7 6 5 4 3 
+1 0 2 7 6 8 4 3 5 
+
+
+8 7 6 5 4 3 2 1 0 
+7 6 8 4 3 5 1 0 2 
+6 8 7 3 5 4 0 2 1 
+1 2 0 7 8 6 4 5 3 
+0 1 2 6 7 8 3 4 5 
+2 0 1 8 6 7 5 3 4 
+4 5 3 1 2 0 7 8 6 
+3 4 5 0 1 2 6 7 8 
+5 3 4 2 0 1 8 6 7 
+
+Solution found
+Time elapsed: 5086765 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 3645
+conflicts: 24039785
+branches: 29302255
+propagations: 6065673400
+integer_propagations: 576487061
+walltime: 5086.76
+usertime: 5086.76
+deterministic_time: 4686.3
+primal_integral: 0
+Using random seed 1090291198
+
+3 4 5 6 7 8 0 1 2 
+4 5 3 7 8 6 1 2 0 
+2 3 4 5 6 7 8 0 1 
+6 7 8 0 1 2 3 4 5 
+7 8 6 1 2 0 4 5 3 
+5 6 7 8 0 1 2 3 4 
+0 1 2 3 4 5 6 7 8 
+1 2 0 4 5 3 7 8 6 
+8 0 1 2 3 4 5 6 7 
+
+
+0 2 1 6 8 7 3 5 4 
+1 0 2 7 6 8 4 3 5 
+2 1 0 8 7 6 5 4 3 
+3 5 4 0 2 1 6 8 7 
+4 3 5 1 0 2 7 6 8 
+5 4 3 2 1 0 8 7 6 
+6 8 7 3 5 4 0 2 1 
+7 6 8 4 3 5 1 0 2 
+8 7 6 5 4 3 2 1 0 
+
+Solution found
+Time elapsed: 11125386 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 3645
+conflicts: 52549793
+branches: 61777108
+propagations: 18588247178
+integer_propagations: 1288828663
+walltime: 11125.4
+usertime: 11125.4
+deterministic_time: 16845.7
+primal_integral: 0
+Using random seed 488215456
+
+8 7 6 5 4 3 2 1 0 
+7 0 8 6 5 4 3 2 1 
+6 8 7 4 3 5 1 0 2 
+5 6 4 3 2 1 0 8 7 
+4 5 3 2 1 0 8 7 6 
+3 4 5 1 0 2 7 6 8 
+2 3 1 0 8 7 6 5 4 
+1 2 0 8 7 6 5 4 3 
+0 1 2 7 6 8 4 3 5 
+
+
+7 6 4 5 8 3 0 1 2 
+4 7 6 8 0 5 1 2 3 
+6 4 7 0 2 1 5 3 8 
+2 1 3 7 6 4 8 0 5 
+1 3 5 4 7 6 2 8 0 
+0 2 8 6 4 7 3 5 1 
+3 8 2 1 5 0 7 4 6 
+8 5 0 3 1 2 6 7 4 
+5 0 1 2 3 8 4 6 7 
+
+Solution found
+Time elapsed: 36098344 ms
+CpSolverResponse:
+status: OPTIMAL
+objective: 0
+best_bound: 0
+booleans: 3645
+conflicts: 131924650
+branches: 154271819
+propagations: 47806839260
+integer_propagations: 3385347412
+walltime: 36098.3
+usertime: 36098.3
+deterministic_time: 50780.4
+primal_integral: 0
